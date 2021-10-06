@@ -28,6 +28,13 @@ Note that if the `OUTPUT` is changed, then artifacts section of workflow yaml ha
 
 It is possible to run locally with `npm start`.
 
+To install dependencies, (re-)run the pipeline and see the triples generated for user "501":
+
+```
+$ npm ci
+$ npm start; cat output/transformed.nt |grep 501
+```
+
 Parameters can be changed locally by creating a `.env` file in the repo root with key/value pairs. For example to narrow down the input mappings:
 
 ```

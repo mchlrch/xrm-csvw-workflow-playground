@@ -2,7 +2,7 @@ output csvw
 
 template adressIriTemplate "http://example.com/User/{0}#address"
 
-map UserAddress from Testuser {
+map UserAddress from Testuser_address {
     subject template adressIriTemplate with customerID;
 
     types schema.PostalAddress

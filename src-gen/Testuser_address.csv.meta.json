@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/Synthetic-Testuser.csv",
+	"url": "../input/Synthetic-Testuser-Address.csv",
 	"dialect": {
 		"delimiter": ","
 		,"quoteChar": "\""
@@ -34,91 +34,11 @@
 			,
 			{
 				"suppressOutput": true,
-				"titles": "Nr."
-			},
-			{
-				"suppressOutput": true,
 				"titles": "customerID"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "influenceScore"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "networkScore"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "NPSScore"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "customerLTV"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "sentimentScore"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "propensityScore"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Salutation"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thumbnail"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Title"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Name"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Fullname"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Last name"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "dob"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "WikidataID"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "WikidataPlace"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "TelephoneNumber"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "CellphoneNumber"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Telefax"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "E-Mail"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Newsletter"
 			}
 		] 
 	}

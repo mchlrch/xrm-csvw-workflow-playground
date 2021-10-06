@@ -24,14 +24,22 @@ logical-source Testuser {
         Fullname
         lastname "Last name"
         dob
-        Street
-        postalCode "Postal Code"
-        City
-        WikidataID
-        WikidataPlace
         TelephoneNumber
         CellphoneNumber
         Telefax
         email "E-Mail"
         Newsletter
+}
+
+logical-source Testuser_address {
+    type csv
+    source "../input/Synthetic-Testuser-Address.csv"
+    dialect Comma
+    
+    referenceables
+        customerID
+        Street
+        postalCode "Postal Code"
+        City
+        WikidataID
 }

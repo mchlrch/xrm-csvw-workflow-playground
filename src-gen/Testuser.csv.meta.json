@@ -94,26 +94,6 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "Street"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Postal Code"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "City"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "WikidataID"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "WikidataPlace"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "Telefax"
 			},
 			{
