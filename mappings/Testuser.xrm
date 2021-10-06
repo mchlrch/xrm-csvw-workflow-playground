@@ -16,7 +16,7 @@ map User from Testuser {
         schema.givenName from name;
         schema.familyName from lastname;
         schema.birthDate from dob;
-        schema.address template "http://example.com/User/{0}#address" with customerID;
+        schema.address template adressIriTemplate with customerID;
         schema.telephone from TelephoneNumber;
         schema.telephone from CellphoneNumber;
         schema.email from email;

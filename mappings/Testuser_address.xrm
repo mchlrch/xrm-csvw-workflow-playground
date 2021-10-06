@@ -1,7 +1,9 @@
 output csvw
 
+template adressIriTemplate "http://example.com/User/{0}#address"
+
 map UserAddress from Testuser {
-    subject template "http://example.com/User/{0}#address" with customerID;
+    subject template adressIriTemplate with customerID;
 
     types schema.PostalAddress
 
